@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/empty" android:drawable="@drawable/heart_empty" android:state_checked="false"/>
+    <item android:id="@+id/full"  android:drawable="@drawable/heart_full" android:state_checked="true"/>
+
+    <transition
+        android:fromId="@+id/empty"
+        android:toId="@+id/full"
+        android:drawable="@drawable/heart_empty_to_full"/>
+    <transition
+        android:fromId="@+id/full"
+        android:toId="@id/empty"
+        android:drawable="@drawable/heart_full_to_empty"/>
+</animated-selector>

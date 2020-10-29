@@ -1,0 +1,85 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar.Bridge">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@android:color/white</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="fontFamily">@font/montserrat_regular</item>
+        <item name="android:toolbarStyle">@style/ToolbarTheme</item>
+    </style>
+
+    <style name="AppTheme.TextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@android:color/white</item>
+        <item name="boxCornerRadiusTopStart">10dp</item>
+        <item name="boxCornerRadiusTopEnd">10dp</item>
+        <item name="tint">@android:color/white</item>
+        <item name="passwordToggleTint">@android:color/white</item>
+        <item name="strokeColor">@android:color/white</item>
+        <item name="helperTextTextColor">@android:color/white</item>
+        <item name="android:textColorHint">@color/lightWhite</item>
+    </style>
+
+    <style name="AppTheme.TextInputLayout.Address" parent="AppTheme.TextInputLayout">
+        <item name="hintTextColor">@color/hint_text_color_address</item>
+        <item name="android:textColorHint">@color/hint_text_color_address</item>
+        <item name="boxStrokeColor">@color/colorPrimary</item>
+        <item name="android:textColorHighlightInverse">@color/colorPrimary</item>
+    </style>
+
+    <style name="AppTheme.AddressField" parent="Widget.AppCompat.EditText">
+        <item name="colorAccent">@color/colorPrimary</item>
+        <item name="android:textCursorDrawable">@null</item>
+        <item name="android:colorLongPressedHighlight">@color/colorPrimary</item>
+    </style>
+
+    <style name="AppTheme.ExtendedTheme" parent="AppTheme">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorOnSurface">@color/colorPrimary</item>
+    </style>
+
+    <style name="AppTheme.Chip.Choice" parent="Widget.MaterialComponents.Chip.Choice">
+        <item name="chipBackgroundColor">@color/address_type_background_color</item>
+        <item name="android:textColor">@color/chip_text_color</item>
+    </style>
+
+    <style name="AppTheme.LoginField" parent="Widget.AppCompat.EditText">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="AppTheme.HeadlineStyle" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="AppTheme.AppNameStyle" parent="AppTheme.HeadlineStyle">
+        <item name="fontFamily">@font/uncial_antiqua_regular</item>
+    </style>
+
+    <style name="AppTheme.HeadlineStyle.White">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="ToolbarTheme" parent="Widget.MaterialComponents.Toolbar">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="titleTextColor">@android:color/white</item>
+        <item name="tint">@android:color/white</item>
+    </style>
+
+    <style name="SearchTheme" parent="Widget.AppCompat.SearchView.ActionBar">
+        <item name="colorPrimary">@android:color/white</item>
+        <item name="android:tint">@android:color/white</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="tint">@android:color/white</item>
+        <item name="iconTint">@android:color/white</item>
+        <item name="android:editTextColor">@android:color/white</item>
+        <item name="android:textColorHint">@color/hintTextColor</item>
+        <item name="actionButtonStyle">@style/SearchActionStyle</item>
+    </style>
+
+    <style name="SearchActionStyle" parent="Widget.AppCompat.ActionButton">
+        <item name="tint">@android:color/white</item>
+    </style>
+</resources>

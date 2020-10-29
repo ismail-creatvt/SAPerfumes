@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/my_account"
+        android:icon="@drawable/ic_account_circle_24dp"
+        android:title="@string/my_account"
+        app:showAsAction="always"
+        app:iconTint="@android:color/white"/>
+<!--    <item-->
+<!--        android:id="@+id/wishlist"-->
+<!--        android:icon="@drawable/ic_favorite_24px"-->
+<!--        android:title="@string/my_wishlist"-->
+<!--        app:showAsAction="always"-->
+<!--        app:iconTint="@android:color/white"/>-->
+    <item
+        android:id="@+id/saved_location"
+        android:icon="@drawable/ic_pin_drop_24px"
+        android:title="@string/saved_locations"
+        app:showAsAction="always"
+        app:iconTint="@android:color/white"/>
+    <item
+        android:id="@+id/my_orders"
+        android:icon="@drawable/ic_playlist_add_check_24dp"
+        android:title="@string/my_orders"
+        app:showAsAction="always"
+        app:iconTint="@android:color/white"/>
+</menu>
